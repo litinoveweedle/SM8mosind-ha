@@ -3,7 +3,7 @@ LINK = "https://sequentmicrosystems.com/products/eight-mosfets-8-layer-stackable
 
 import lib8mosind
 API = lib8mosind
-DOMAIN = "SM8mosind"
+DOMAIN = "sm8mosind"
 NAME_PREFIX = "sm8m"
 SM_MAP = {
     "switch": {
