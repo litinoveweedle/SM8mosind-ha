@@ -1,14 +1,15 @@
 {
   "domain": "sm8mosind",
-  "name": "Sequent Microsystems Eight MOSFETS Integration",
-  "after_dependencies": [],
+  "name": "Sequent Microsystems Eight MOSFETS Card",
+  "categories": [
+    "diy_makers.boards_hardware"
+  ],
   "codeowners": ["@3lv", "@litinoveweedle"],
   "config_flow": true,
-  "dependencies": [],
   "documentation": "https://github.com/SequentMicrosystems/SM8mosind-ha",
   "integration_type": "device",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/SequentMicrosystems/SM8mosind-ha",
+  "issue_tracker": "https://github.com/SequentMicrosystems/SM8mosind-ha/issues",
   "requirements": ["SM8mosind>=1.0.2", "SMcommonHA>=0.0.3"],
   "version": "1.0.0"
 }
